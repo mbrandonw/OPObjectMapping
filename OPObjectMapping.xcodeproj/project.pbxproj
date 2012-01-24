@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA8C695F14CF50FE00C21BD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8C695E14CF50FE00C21BD8 /* UIKit.framework */; };
+		CA8C696114CF50FE00C21BD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8C696014CF50FE00C21BD8 /* Foundation.framework */; };
+		CA8C696314CF50FE00C21BD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8C696214CF50FE00C21BD8 /* CoreGraphics.framework */; };
+		CA8C696B14CF50FE00C21BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C696A14CF50FE00C21BD8 /* main.m */; };
+		CA8C696F14CF50FE00C21BD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C696E14CF50FE00C21BD8 /* AppDelegate.m */; };
+		CA8C697D14CF55D700C21BD8 /* OPObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C697C14CF55D700C21BD8 /* OPObjectMapping.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA8C695A14CF50FE00C21BD8 /* OPObjectMapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPObjectMapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8C695E14CF50FE00C21BD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA8C696014CF50FE00C21BD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA8C696214CF50FE00C21BD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA8C696614CF50FE00C21BD8 /* OPObjectMapping-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OPObjectMapping-Info.plist"; sourceTree = "<group>"; };
+		CA8C696A14CF50FE00C21BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA8C696C14CF50FE00C21BD8 /* OPObjectMapping-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OPObjectMapping-Prefix.pch"; sourceTree = "<group>"; };
+		CA8C696D14CF50FE00C21BD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA8C696E14CF50FE00C21BD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA8C697B14CF55D700C21BD8 /* OPObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPObjectMapping.h; sourceTree = "<group>"; };
+		CA8C697C14CF55D700C21BD8 /* OPObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPObjectMapping.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA8C695714CF50FE00C21BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8C695F14CF50FE00C21BD8 /* UIKit.framework in Frameworks */,
+				CA8C696114CF50FE00C21BD8 /* Foundation.framework in Frameworks */,
+				CA8C696314CF50FE00C21BD8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA8C694F14CF50FE00C21BD8 = {
+			isa = PBXGroup;
+			children = (
+				CA8C696414CF50FE00C21BD8 /* OPObjectMapping */,
+				CA8C695D14CF50FE00C21BD8 /* Frameworks */,
+				CA8C695B14CF50FE00C21BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA8C695B14CF50FE00C21BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C695A14CF50FE00C21BD8 /* OPObjectMapping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA8C695D14CF50FE00C21BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C695E14CF50FE00C21BD8 /* UIKit.framework */,
+				CA8C696014CF50FE00C21BD8 /* Foundation.framework */,
+				CA8C696214CF50FE00C21BD8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA8C696414CF50FE00C21BD8 /* OPObjectMapping */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C697A14CF537A00C21BD8 /* Source */,
+				CA8C696514CF50FE00C21BD8 /* Supporting Files */,
+			);
+			path = OPObjectMapping;
+			sourceTree = "<group>";
+		};
+		CA8C696514CF50FE00C21BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C696D14CF50FE00C21BD8 /* AppDelegate.h */,
+				CA8C696E14CF50FE00C21BD8 /* AppDelegate.m */,
+				CA8C696614CF50FE00C21BD8 /* OPObjectMapping-Info.plist */,
+				CA8C696A14CF50FE00C21BD8 /* main.m */,
+				CA8C696C14CF50FE00C21BD8 /* OPObjectMapping-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA8C697A14CF537A00C21BD8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C697B14CF55D700C21BD8 /* OPObjectMapping.h */,
+				CA8C697C14CF55D700C21BD8 /* OPObjectMapping.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA8C695914CF50FE00C21BD8 /* OPObjectMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8C697214CF50FE00C21BD8 /* Build configuration list for PBXNativeTarget "OPObjectMapping" */;
+			buildPhases = (
+				CA8C695614CF50FE00C21BD8 /* Sources */,
+				CA8C695714CF50FE00C21BD8 /* Frameworks */,
+				CA8C695814CF50FE00C21BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPObjectMapping;
+			productName = OPObjectMapping;
+			productReference = CA8C695A14CF50FE00C21BD8 /* OPObjectMapping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA8C695114CF50FE00C21BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Opetopic;
+			};
+			buildConfigurationList = CA8C695414CF50FE00C21BD8 /* Build configuration list for PBXProject "OPObjectMapping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA8C694F14CF50FE00C21BD8;
+			productRefGroup = CA8C695B14CF50FE00C21BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA8C695914CF50FE00C21BD8 /* OPObjectMapping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA8C695814CF50FE00C21BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA8C695614CF50FE00C21BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8C696B14CF50FE00C21BD8 /* main.m in Sources */,
+				CA8C696F14CF50FE00C21BD8 /* AppDelegate.m in Sources */,
+				CA8C697D14CF55D700C21BD8 /* OPObjectMapping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA8C697014CF50FE00C21BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA8C697114CF50FE00C21BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA8C697314CF50FE00C21BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPObjectMapping/OPObjectMapping-Prefix.pch";
+				INFOPLIST_FILE = "OPObjectMapping/OPObjectMapping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA8C697414CF50FE00C21BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPObjectMapping/OPObjectMapping-Prefix.pch";
+				INFOPLIST_FILE = "OPObjectMapping/OPObjectMapping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA8C695414CF50FE00C21BD8 /* Build configuration list for PBXProject "OPObjectMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8C697014CF50FE00C21BD8 /* Debug */,
+				CA8C697114CF50FE00C21BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8C697214CF50FE00C21BD8 /* Build configuration list for PBXNativeTarget "OPObjectMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8C697314CF50FE00C21BD8 /* Debug */,
+				CA8C697414CF50FE00C21BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA8C695114CF50FE00C21BD8 /* Project object */;
+}
